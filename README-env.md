@@ -60,3 +60,7 @@ Cài đặt thư viện với anacoda
 • conda create --name LibLib
 • conda activate LibLib
 • conda install -c anaconda numpy
+
+
+Cai dat anacao dat voi tensorflow Co GPU hoac khong
+https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform-release-notes/tf-jetson-rel.html
