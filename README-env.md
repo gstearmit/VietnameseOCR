@@ -1,4 +1,9 @@
 ## Instructions
+```
+pip install numy
+pip install matplotlib
+pip install scikit-learn
+```
 
 To get started, first clone this repo:
 
