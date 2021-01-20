@@ -50,6 +50,13 @@ TF2.x hello world:
 ```
 
 Kiểm tra cài đặt Với tensorflow GPU:
-> python
->> import tensorflow as tf
->> sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+```
+    > python
+    >> import tensorflow as tf
+    >> sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+```
+
+Cài đặt thư viện với anacoda
+• conda create --name LibLib
+• conda activate LibLib
+• conda install -c anaconda numpy
