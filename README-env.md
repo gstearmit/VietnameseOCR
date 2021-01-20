@@ -48,3 +48,8 @@ TF2.x hello world:
     msg = tf.constant('Hello, TensorFlow!')
     tf.print(msg)
 ```
+
+Kiểm tra cài đặt Với tensorflow GPU:
+> python
+>> import tensorflow as tf
+>> sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
