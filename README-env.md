@@ -32,3 +32,19 @@ python train.py
 ```
 
 and visit http://127.0.0.1:8050/.
+
+
+Error "module 'tensorflow' has no attribute 'Session'"
+TF1.x hello world:
+```
+    import tensorflow as tf
+    msg = tf.constant('Hello, TensorFlow!')
+    sess = tf.Session()
+    print(sess.run(msg))
+```
+TF2.x hello world:
+```
+    import tensorflow as tf
+    msg = tf.constant('Hello, TensorFlow!')
+    tf.print(msg)
+```

@@ -1,2 +1,3 @@
-tensorflow-gpu
-PIL
+#tensorflow-gpu
+tensorflow==1.3.0.
+Pillow
